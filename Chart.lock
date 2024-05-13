@@ -1,0 +1,9 @@
+dependencies:
+- name: terraform-specific-provisioner
+  repository: https://gitlab.com/api/v4/projects/44077776/packages/helm/devel
+  version: 0.0.0-SNAPSHOT-6303f3dfc2.wit-2108-add-princip
+- name: adls-gen2
+  repository: https://gitlab.com/api/v4/projects/55880667/packages/helm/devel
+  version: 0.0.0-SNAPSHOT-2770e0a09b.wit-1990-implement-p
+digest: sha256:f3b82da691f019c3c434de4fe2b9b289113c11ca927f011c5c6a8fb40116d841
+generated: "2024-05-10T14:50:56.2846273+02:00"

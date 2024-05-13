@@ -1,0 +1,68 @@
+{{ define "chart.valuesTable" }}
+| Key | Type | Description | Default |
+|-----|------|---------|-------------|
+  {{- range .Values }}
+| {{ .Key }} | {{ .Type }} | {{ if .Description }}{{ .Description }}{{ else }}{{ .AutoDescription }}{{ end }} | {{ if .Default }}{{ .Default }}{{ else }}{{ .AutoDefault }}{{ end }} |
+  {{- end }}
+{{ end }}
+<br/>
+<p align="center">
+    <a href="https://www.agilelab.it/witboost">
+        <img src="docs/img/witboost_logo.svg" alt="witboost" width=600 >
+    </a>
+</p>
+<br/>
+
+Designed by [Agile Lab](https://www.agilelab.it/), Witboost is a versatile platform that addresses a wide range of sophisticated data engineering challenges. It enables businesses to discover, enhance, and productize their data, fostering the creation of automated data platforms that adhere to the highest standards of data governance. Want to know more about Witboost? Check it out [here](https://www.agilelab.it/witboost) or [contact us!](https://www.agilelab.it/contacts)
+
+This repository is part of our [Starter Kit](https://github.com/agile-lab-dev/witboost-starter-kit) meant to showcase Witboost's integration capabilities and provide a "batteries-included" product.
+
+# Azure ADLS Umbrella Chart
+
+- [Overview](#overview)
+- [Configuring](#configuring)
+- [Deploying](#deploying)
+
+## Overview
+
+This project implements a Helm chart that deploys the [Terraform Specific Provisioner](https://github.com/agile-lab-dev/witboost-terraform-scaffold) along with the Azure ADLS modules.
+
+![diagram](docs/img/diagram.png)
+
+## Configuring
+
+Please refer to the individual charts for the configuration.
+
+{{ template "chart.homepageLine" . }}
+{{ template "chart.maintainersSection" . }}
+{{ template "chart.sourcesSection" . }}
+{{ template "chart.requirementsSection" . }}
+{{ template "chart.valuesSection" . }}
+
+## Deploying
+
+The module is packaged as an **Helm Chart**. It can be deployed with the `helm` utility.
+
+## License
+
+This project is available under the [Apache License, Version 2.0](https://opensource.org/licenses/Apache-2.0); see [LICENSE](LICENSE) for full details.
+
+## About us
+
+<br/>
+<p align="center">
+    <a href="https://www.agilelab.it">
+        <img src="docs/img/agilelab_logo.svg" alt="Agile Lab" width=600>
+    </a>
+</p>
+<br/>
+
+Agile Lab creates value for its Clients in data-intensive environments through customizable solutions to establish performance driven processes, sustainable architectures, and automated platforms driven by data governance best practices.
+
+Since 2014 we have implemented 100+ successful Elite Data Engineering initiatives and used that experience to create Witboost: a technology-agnostic, modular platform, that empowers modern enterprises to discover, elevate and productize their data both in traditional environments and on fully compliant Data mesh architectures.
+
+[Contact us](https://www.agilelab.it/contacts) or follow us on:
+- [LinkedIn](https://www.linkedin.com/company/agile-lab/)
+- [Instagram](https://www.instagram.com/agilelab_official/)
+- [YouTube](https://www.youtube.com/channel/UCTWdhr7_4JmZIpZFhMdLzAA)
+- [Twitter](https://twitter.com/agile__lab)

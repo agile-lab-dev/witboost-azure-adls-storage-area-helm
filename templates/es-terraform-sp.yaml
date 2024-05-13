@@ -1,0 +1,17 @@
+apiVersion: external-secrets.io/v1beta1
+kind: ExternalSecret
+metadata:
+  name: azure-adls-terraform-sp-external-secret
+spec:
+  refreshInterval: {{ .Values.globals.externalSecrets.refreshInterval }}
+  secretStoreRef:
+    kind: ClusterSecretStore
+    name: {{ .Values.globals.externalSecrets.secretStore }} # Must match SecretStore on the cluster
+
+  target:
+    name: azure-adls-terraform-sp # Name for the secret to be created on the cluster
+    creationPolicy: Owner
+
+  dataFrom:
+    - extract:
+        key: {{ .Values.globals.externalSecrets.refs.terraform_sp }} # Key of the variable
