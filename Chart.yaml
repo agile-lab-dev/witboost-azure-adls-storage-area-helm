@@ -31,7 +31,7 @@ dependencies:
   - name: "adls-gen2"
     condition: adls-gen2.enabled
     repository: "https://gitlab.com/api/v4/projects/55880667/packages/helm/devel"
-    version: "0.0.0-SNAPSHOT-2770e0a09b.wit-1990-implement-p"
+    version: "0.0.0-SNAPSHOT-9735ae76dd.wip"
 
 maintainers:
   - name: Agile Lab
