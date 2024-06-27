@@ -37,8 +37,8 @@ Please refer to the individual charts for the configuration.
 
 | Repository | Name | Version |
 |------------|------|---------|
-| https://gitlab.com/api/v4/projects/44077776/packages/helm/devel | terraform-specific-provisioner | 0.0.0-SNAPSHOT-6303f3dfc2.wit-2108-add-princip |
-| https://gitlab.com/api/v4/projects/55880667/packages/helm/devel | adls-gen2 | 0.0.0-SNAPSHOT-9735ae76dd.wip |
+| https://gitlab.com/api/v4/projects/44077776/packages/helm/devel | terraform-specific-provisioner | 0.0.0-SNAPSHOT-ab72f35f47.logging-in-real-time |
+| https://gitlab.com/api/v4/projects/55880667/packages/helm/devel | adls-gen2 | 0.0.0-SNAPSHOT-634ce6161f.resolve-wit-2447-upd |
 ## Values
 
 | Key | Type | Description | Default |

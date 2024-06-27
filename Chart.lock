@@ -1,9 +1,9 @@
 dependencies:
 - name: terraform-specific-provisioner
   repository: https://gitlab.com/api/v4/projects/44077776/packages/helm/devel
-  version: 0.0.0-SNAPSHOT-6303f3dfc2.wit-2108-add-princip
+  version: 0.0.0-SNAPSHOT-ab72f35f47.logging-in-real-time
 - name: adls-gen2
   repository: https://gitlab.com/api/v4/projects/55880667/packages/helm/devel
-  version: 0.0.0-SNAPSHOT-9735ae76dd.wip
-digest: sha256:bf902b0a07634d5f5e2a97d2d2f9f3ae2e950882581c06e49c0969d3d2599329
-generated: "2024-06-05T14:44:05.6243504+02:00"
+  version: 0.0.0-SNAPSHOT-634ce6161f.resolve-wit-2447-upd
+digest: sha256:a915c6cfcbe126c6ab7c9d7e759fef5073ac42288b205d1d8fbb6e28492675de
+generated: "2024-06-11T14:00:55.363443+02:00"
