@@ -27,11 +27,15 @@ dependencies:
   - name: "terraform-specific-provisioner"
     condition: terraform-specific-provisioner.enabled
     repository: "https://gitlab.com/api/v4/projects/44077776/packages/helm/devel"
-    version: "0.0.0-SNAPSHOT-ab72f35f47.logging-in-real-time"
+    version: "0.0.0-SNAPSHOT-197c106820.add-reverse-provisio"
   - name: "adls-gen2"
     condition: adls-gen2.enabled
     repository: "https://gitlab.com/api/v4/projects/55880667/packages/helm/devel"
     version: "0.0.0-SNAPSHOT-634ce6161f.resolve-wit-2447-upd"
+  - name: "adls-gen2-import"
+    condition: adls-gen2-import.enabled
+    repository: "https://gitlab.com/api/v4/projects/61216040/packages/helm/devel"
+    version: "0.0.0-SNAPSHOT-f3a8f7041e.merge-branch-wit-297"
 
 maintainers:
   - name: Agile Lab

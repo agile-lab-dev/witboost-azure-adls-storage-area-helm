@@ -5,5 +5,8 @@ dependencies:
 - name: adls-gen2
   repository: https://gitlab.com/api/v4/projects/55880667/packages/helm/devel
   version: 0.0.0-SNAPSHOT-634ce6161f.resolve-wit-2447-upd
-digest: sha256:a915c6cfcbe126c6ab7c9d7e759fef5073ac42288b205d1d8fbb6e28492675de
-generated: "2024-06-11T14:00:55.363443+02:00"
+- name: adls-gen2-import
+  repository: https://gitlab.com/api/v4/projects/61216040/packages/helm/devel
+  version: 0.0.0-SNAPSHOT-5fd06b6773.make-location-a-vari
+digest: sha256:1a3891c6e81be6f177155280ded091187ac9e7614e13c3d63077ba0a4561656f
+generated: "2024-09-04T16:31:03.319867+02:00"
