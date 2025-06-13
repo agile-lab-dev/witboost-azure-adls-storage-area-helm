@@ -27,7 +27,7 @@ dependencies:
   - name: "terraform-specific-provisioner"
     condition: terraform-specific-provisioner.enabled
     repository: "https://gitlab.com/api/v4/projects/44077776/packages/helm/devel"
-    version: "0.0.0-SNAPSHOT-197c106820.add-reverse-provisio"
+    version: "0.0.0-SNAPSHOT-b5fa331749.updated-readme"
   - name: "adls-gen2"
     condition: adls-gen2.enabled
     repository: "https://gitlab.com/api/v4/projects/55880667/packages/helm/devel"

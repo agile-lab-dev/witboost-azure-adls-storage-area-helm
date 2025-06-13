@@ -1,15 +1,14 @@
 
-globals:
-  # External secrets are used to inject secrets from external secret managers
-  externalSecrets:
-    # -- Secret store installed in the cluster
-    secretStore: fake
-    # -- Secrets refresh interval
-    refreshInterval: 15m
-    # -- Each field represent the name of the secret in the remote secret manager
-    # @default -- Map of fields
-    refs:
-      terraform_sp: &azure-adls-terraform-sp azure-adls-terraform-sp
+
+# External secrets are used to inject secrets from external secret managers
+externalSecrets:
+  # -- Secret store installed in the cluster
+  secretStore: fake
+  # -- Secrets refresh interval
+  refreshInterval: 15m
+  # -- Each field represent the name of the secret in the remote secret manager
+  # -- Extraction key
+  extractKey: &azure-adls-terraform-sp azure-adls-terraform-sp
 
 
 adls-gen2:
